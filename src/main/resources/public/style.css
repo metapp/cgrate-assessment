@@ -1,0 +1,19 @@
+h1,h2 {
+    text-shadow:1px 1px 8px black;
+}
+i:hover {
+    text-shadow:1px 1px 8px silver;
+    cursor:pointer;
+}
+.notification-success, .notification-error {
+    color: white; padding:8px; border-radius:8px; margin: 6px 0;
+}
+.notification-success > a {
+    color: lime;
+}
+.notification-success {
+    background-color:#66ad57;
+}
+.notification-error {
+    background-color:#FF4C4C
+}
